@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        ar = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        let odd = 0
+        let even = 0
+        function counter() {
+            for (let index = 0; index < ar.length; index++) {
+                if (ar[index] % 2 === 0) {
+                    even += 1
+
+                } else {
+                    odd += 1
+
+                }
+            } if (odd > even) {
+                return odd
+
+            } return even
+
+
+        }
+        console.log(counter());
+    </script>
+</body>
+
+</html>
